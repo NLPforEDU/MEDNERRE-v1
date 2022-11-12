@@ -1,0 +1,24 @@
+Find the following entities : [disease, symptom, drug, test, side effect, possible cause] and relation between them
+
+print tuples with three values, with first and second elements as entities found and third one as relation between them
+
+text: Dengue fever is a severe, flu-like illness that affects infants, young children and adults, but seldom causes death. Dengue should be suspected when a high fever (40°C/104°F) is accompanied by 2 of the following symptoms: severe headache, pain behind the eyes, muscle and joint pains, nausea, vomiting, swollen glands or rash. Symptoms usually last for 2–7 days, after an incubation period of 4–10 days after the bite from an infected mosquito. Red blood pigmenatation test is used to find this disease. Amrocillin is used to treat this disease and it can has vomiting as side effect. Cholera can have Diarrhea, Nausea and vomiting and dehydration as symptoms.
+Both those two diseases are common in rural areas.  Former one is caused by mosquito bite while the other one is caused by flies.
+output: (Dengue fever,high fever,symptom)
+(Dengue fever,severe headache,symptom)
+(Dengue fever,pain behind the eyes,symptom)
+(Dengue fever,muscle and joint pains,symptom)
+(Dengue fever,nausea,symptom)
+(Dengue fever,vomiting,symptom)
+(Dengue fever,swollen glands,symptom)
+(Dengue fever,rash,symptom)
+(Red blood pigmenatation test,Dengue fever,test)
+(Amrocillin,Dengue fever,drug)
+(Amrocillin,vomiting,side effect)
+(Cholera,Diarrhea,symptom)
+(Cholera,Nausea and vomiting,symptom)
+(Cholera,dehydration,symptom)
+(Dengue ,mosquito bite,possible cause)
+(Cholera,flies,possible cause)
+
+text:
