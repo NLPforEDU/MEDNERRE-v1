@@ -23,7 +23,7 @@ In GPT_Model, we included the prompt for the purpose, in the api-key.txt please 
 * To visulaize the output in graph, run plot_graph.py
 
 # Plot output
-![plot](https://github.com/NLPforEDU/MEDNEERRE-v1/blob/main/GPT_Model/images/grpah_dependencies.jpg)
+![plot](https://github.com/NLPforEDU/MEDNEERRE-v1/blob/main/GPT_Model/images/graph_dependencies.jpg)
 
 
 ##### We will be also adding the link of gpt-2 models trained on medical textbook data here.
